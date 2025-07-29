@@ -1,0 +1,1364 @@
+databaseChangeLog:
+  - changeSet:
+      id: insert-hostels
+      author: Ch-Hanuman
+      dbms: mysql
+      changes:
+        # Insert Hostels
+        - insert:
+            tableName: hostel
+            columns:
+              - column: {name: name, value: "Blue Haven"}
+              - column: {name: address, value: "12 Lake View Road"}
+              - column: {name: area, value: "Madhapur"}
+              - column: {name: city, value: "Hyderabad"}
+              - column: {name: state, value: "Telangana"}
+              - column: {name: pincode, value: "500081"}
+              - column: {name: contact, value: "+91 9871112222"}
+              - column: {name: email, value: "bluehaven@gmail.com"}
+              - column: {name: website, value: "www.bluehaven.com"}
+              - column: {name: type, value: "MALE"}
+
+        - insert:
+            tableName: hostel
+            columns:
+              - column: {name: name, value: "Green Nest"}
+              - column: {name: address, value: "45 Palm Street"}
+              - column: {name: area, value: "Kondapur"}
+              - column:
+                  name: city
+                  value: "Hyderabad"
+              - column: {name: state, value: "Telangana"}
+              - column: {name: pincode, value: "500084"}
+              - column: {name: contact, value: "+91 9872223333"}
+              - column: {name: email, value: "greennest@gmail.com"}
+              - column: {name: website, value: "www.greennest.com"}
+              - column: {name: type, value: "FEMALE"}
+
+        - insert:
+            tableName: hostel
+            columns:
+              - column: {name: name, value: "Urban Stay"}
+              - column: {name: address, value: "88 Skyline Avenue"}
+              - column: {name: area, value: "Gachibowli"}
+              - column: {name: city, value: "Hyderabad"}
+              - column: {name: state, value: "Telangana"}
+              - column: {name: pincode, value: "500032"}
+              - column: {name: contact, value: "+91 9873334444"}
+              - column: {name: email, value: "urbanstay@gmail.com"}
+              - column: {name: website, value: "www.urbanstay.com"}
+              - column: {name: type, value: "CO_LIVE"}
+
+        - insert:
+            tableName: hostel
+            columns:
+              - column: {name: name, value: "The Comfort Inn"}
+              - column: {name: address, value: "7 Peace Lane"}
+              - column: {name: area, value: "Manikonda"}
+              - column: {name: city, value: "Hyderabad"}
+              - column: {name: state, value: "Telangana"}
+              - column: {name: pincode, value: "500089"}
+              - column: {name: contact, value: "+91 9874445555"}
+              - column: {name: email, value: "comfortinn@gmail.com"}
+              - column: {name: website, value: "www.comfortinn.com"}
+              - column: {name: type, value: "MALE"}
+
+        - insert:
+            tableName: hostel
+            columns:
+              - column: {name: name, value: "Serene Living"}
+              - column: {name: address, value: "23 Lotus Road"}
+              - column: {name: area, value: "Madhapur"}
+              - column: {name: city, value: "Hyderabad"}
+              - column: {name: state, value: "Telangana"}
+              - column: {name: pincode, value: "500081"}
+              - column: {name: contact, value: "+91 9875556666"}
+              - column: {name: email, value: "sereneliving@gmail.com"}
+              - column: {name: website, value: "www.sereneliving.com"}
+              - column: {name: type, value: "FEMALE"}
+
+        - insert:
+            tableName: hostel
+            columns:
+              - column: {name: name, value: "Harmony Homes"}
+              - column: {name: address, value: "4 Park Lane"}
+              - column: {name: area, value: "Kukatpally"}
+              - column: {name: city, value: "Hyderabad"}
+              - column: {name: state, value: "Telangana"}
+              - column: {name: pincode, value: "500072"}
+              - column: {name: contact, value: "+91 9876667777"}
+              - column: {name: email, value: "harmonyhomes@gmail.com"}
+              - column: {name: website, value: "www.harmonyhomes.com"}
+              - column: {name: type, value: "CO_LIVE"}
+
+        - insert:
+            tableName: hostel
+            columns:
+              - column: {name: name, value: "Tranquil Nest"}
+              - column: {name: address, value: "3B Serenity Block"}
+              - column: {name: area, value: "Hi-Tech City"}
+              - column: {name: city, value: "Hyderabad"}
+              - column: {name: state, value: "Telangana"}
+              - column: {name: pincode, value: "500081"}
+              - column: {name: contact, value: "+91 9877778888"}
+              - column: {name: email, value: "tranquilnest@gmail.com"}
+              - column: {name: website, value: "www.tranquilnest.com"}
+              - column: {name: type, value: "FEMALE"}
+
+        - insert:
+            tableName: hostel
+            columns:
+              - column: {name: name, value: "Smart Stay"}
+              - column: {name: address, value: "6 Tech Park Drive"}
+              - column: {name: area, value: "Gachibowli"}
+              - column: {name: city, value: "Hyderabad"}
+              - column: {name: state, value: "Telangana"}
+              - column: {name: pincode, value: "500032"}
+              - column: {name: contact, value: "+91 9878889999"}
+              - column: {name: email, value: "smartstay@gmail.com"}
+              - column: {name: website, value: "www.smartstay.com"}
+              - column: {name: type, value: "MALE"}
+
+        - insert:
+            tableName: hostel
+            columns:
+              - column: {name: name, value: "The Metro Stay"}
+              - column: {name: address, value: "9 Central Street"}
+              - column: {name: area, value: "Madhapur"}
+              - column: {name: city, value: "Hyderabad"}
+              - column: {name: state, value: "Telangana"}
+              - column: {name: pincode, value: "500081"}
+              - column: {name: contact, value: "+91 9879990000"}
+              - column: {name: email, value: "metrostay@gmail.com"}
+              - column: {name: website, value: "www.metrostay.com"}
+              - column: {name: type, value: "CO_LIVE"}
+
+        - insert:
+            tableName: hostel
+            columns:
+              - column: {name: name, value: "Cosmo CoLive"}
+              - column: {name: address, value: "22 Galaxy Towers"}
+              - column: {name: area, value: "Kondapur"}
+              - column: {name: city, value: "Hyderabad"}
+              - column: {name: state, value: "Telangana"}
+              - column: {name: pincode, value: "500084"}
+              - column: {name: contact, value: "+91 9871234567"}
+              - column: {name: email, value: "cosmocolive@gmail.com"}
+              - column: {name: website, value: "www.cosmocolive.com"}
+              - column: {name: type, value: "CO_LIVE"}
+
+        # Insert Hostel Images (assuming hostel_id from 1 to 10 autoincrement)
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 1}
+              - column: {name: image_url, value: "https://bluehaven.com/assets/images/1.jpg"}
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 1}
+              - column: {name: image_url, value: "https://bluehaven.com/assets/images/2.jpg"}
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 1}
+              - column: {name: image_url, value: "https://bluehaven.com/assets/images/3.jpg"}
+
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 2}
+              - column: {name: image_url, value: "https://greennest.com/assets/images/1.jpg"}
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 2}
+              - column: {name: image_url, value: "https://greennest.com/assets/images/2.jpg"}
+
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 3}
+              - column: {name: image_url, value: "https://urbanstay.com/assets/images/1.jpg"}
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 3}
+              - column: {name: image_url, value: "https://urbanstay.com/assets/images/2.jpg"}
+
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 4}
+              - column: {name: image_url, value: "https://thecomfortinn.com/assets/images/1.jpg"}
+
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 5}
+              - column: {name: image_url, value: "https://sereneliving.com/assets/images/1.jpg"}
+
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 6}
+              - column: {name: image_url, value: "https://harmonyhomes.com/assets/images/1.jpg"}
+
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 7}
+              - column: {name: image_url, value: "https://tranquilnest.com/assets/images/1.jpg"}
+
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 8}
+              - column: {name: image_url, value: "https://smartstay.com/assets/images/1.jpg"}
+
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 9}
+              - column: {name: image_url, value: "https://metrostay.com/assets/images/1.jpg"}
+
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 10}
+              - column: {name: image_url, value: "https://cosmocolive.com/assets/images/1.jpg"}
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "101" }
+              - column: { name: type, value: "AC" }
+              - column: { name: capacity, value: 2 }
+              - column: { name: available, value: 2 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 12000 }
+              - column: { name: daily_price, value: 600 }
+              - column: { name: deposit, value: 7000 }
+              - column: { name: hostel_id, value: 1 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "102" }
+              - column: { name: type, value: "NON_AC" }
+              - column: { name: capacity, value: 3 }
+              - column: { name: available, value: 3 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 9000 }
+              - column: { name: daily_price, value: 400 }
+              - column: { name: deposit, value: 6000 }
+              - column: { name: hostel_id, value: 1 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "201" }
+              - column: { name: type, value: "AC" }
+              - column: { name: capacity, value: 2 }
+              - column: { name: available, value: 2 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 13000 }
+              - column: { name: daily_price, value: 650 }
+              - column: { name: deposit, value: 7500 }
+              - column: { name: hostel_id, value: 2 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "202" }
+              - column: { name: type, value: "NON_AC" }
+              - column: { name: capacity, value: 3 }
+              - column: { name: available, value: 3 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 9500 }
+              - column: { name: daily_price, value: 420 }
+              - column: { name: deposit, value: 6200 }
+              - column: { name: hostel_id, value: 2 }
+
+        # Similarly for hostels 3 to 10:
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "301" }
+              - column: { name: type, value: "AC" }
+              - column: { name: capacity, value: 2 }
+              - column: { name: available, value: 2 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 12500 }
+              - column: { name: daily_price, value: 620 }
+              - column: { name: deposit, value: 7000 }
+              - column: { name: hostel_id, value: 3 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "302" }
+              - column: { name: type, value: "NON_AC" }
+              - column: { name: capacity, value: 3 }
+              - column: { name: available, value: 3 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 9000 }
+              - column: { name: daily_price, value: 400 }
+              - column: { name: deposit, value: 6000 }
+              - column: { name: hostel_id, value: 3 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "401" }
+              - column: { name: type, value: "AC" }
+              - column: { name: capacity, value: 2 }
+              - column: { name: available, value: 2 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 11800 }
+              - column: { name: daily_price, value: 590 }
+              - column: { name: deposit, value: 6800 }
+              - column: { name: hostel_id, value: 4 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "402" }
+              - column: { name: type, value: "NON_AC" }
+              - column: { name: capacity, value: 3 }
+              - column: { name: available, value: 3 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 8800 }
+              - column: { name: daily_price, value: 380 }
+              - column: { name: deposit, value: 5900 }
+              - column: { name: hostel_id, value: 4 }
+
+        # Rooms for hostels 5-10 (repeat pattern with adjusted room_no and prices)
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "501" }
+              - column: { name: type, value: "AC" }
+              - column: { name: capacity, value: 2 }
+              - column: { name: available, value: 2 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 12200 }
+              - column: { name: daily_price, value: 610 }
+              - column: { name: deposit, value: 7000 }
+              - column: { name: hostel_id, value: 5 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "502" }
+              - column: { name: type, value: "NON_AC" }
+              - column: { name: capacity, value: 3 }
+              - column: { name: available, value: 3 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 9000 }
+              - column: { name: daily_price, value: 400 }
+              - column: { name: deposit, value: 6000 }
+              - column: { name: hostel_id, value: 5 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "601" }
+              - column: { name: type, value: "AC" }
+              - column: { name: capacity, value: 2 }
+              - column: { name: available, value: 2 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 13000 }
+              - column: { name: daily_price, value: 650 }
+              - column: { name: deposit, value: 7500 }
+              - column: { name: hostel_id, value: 6 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "602" }
+              - column: { name: type, value: "NON_AC" }
+              - column: { name: capacity, value: 3 }
+              - column: { name: available, value: 3 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 9000 }
+              - column: { name: daily_price, value: 400 }
+              - column: { name: deposit, value: 6000 }
+              - column: { name: hostel_id, value: 6 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "701" }
+              - column: { name: type, value: "AC" }
+              - column: { name: capacity, value: 2 }
+              - column: { name: available, value: 2 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 12000 }
+              - column: { name: daily_price, value: 600 }
+              - column: { name: deposit, value: 7000 }
+              - column: { name: hostel_id, value: 7 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "702" }
+              - column: { name: type, value: "NON_AC" }
+              - column: { name: capacity, value: 3 }
+              - column: { name: available, value: 3 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 8800 }
+              - column: { name: daily_price, value: 380 }
+              - column: { name: deposit, value: 5900 }
+              - column: { name: hostel_id, value: 7 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "801" }
+              - column: { name: type, value: "AC" }
+              - column: { name: capacity, value: 2 }
+              - column: { name: available, value: 2 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 13000 }
+              - column: { name: daily_price, value: 650 }
+              - column: { name: deposit, value: 7500 }
+              - column: { name: hostel_id, value: 8 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "802" }
+              - column: { name: type, value: "NON_AC" }
+              - column: { name: capacity, value: 3 }
+              - column: { name: available, value: 3 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 9000 }
+              - column: { name: daily_price, value: 400 }
+              - column: { name: deposit, value: 6000 }
+              - column: { name: hostel_id, value: 8 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "901" }
+              - column: { name: type, value: "AC" }
+              - column: { name: capacity, value: 2 }
+              - column: { name: available, value: 2 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 12500 }
+              - column: { name: daily_price, value: 620 }
+              - column: { name: deposit, value: 7000 }
+              - column: { name: hostel_id, value: 9 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "902" }
+              - column: { name: type, value: "NON_AC" }
+              - column: { name: capacity, value: 3 }
+              - column: { name: available, value: 3 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 9000 }
+              - column: { name: daily_price, value: 400 }
+              - column: { name: deposit, value: 6000 }
+              - column: { name: hostel_id, value: 9 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "1001" }
+              - column: { name: type, value: "AC" }
+              - column: { name: capacity, value: 2 }
+              - column: { name: available, value: 2 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 12800 }
+              - column: { name: daily_price, value: 640 }
+              - column: { name: deposit, value: 7200 }
+              - column: { name: hostel_id, value: 10 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "1002" }
+              - column: { name: type, value: "NON_AC" }
+              - column: { name: capacity, value: 3 }
+              - column: { name: available, value: 3 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 9200 }
+              - column: { name: daily_price, value: 420 }
+              - column: { name: deposit, value: 6100 }
+              - column: { name: hostel_id, value: 10 }
+
+        # Amenities for hostels 1 to 10, 3 per hostel
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Wifi" }
+              - column: { name: hostel_id, value: 1 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Parking" }
+              - column: { name: hostel_id, value: 1 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Laundry" }
+              - column: { name: hostel_id, value: 1 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Wifi" }
+              - column: { name: hostel_id, value: 2 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Gym" }
+              - column: { name: hostel_id, value: 2 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "24x7 Security" }
+              - column: { name: hostel_id, value: 2 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Wifi" }
+              - column: { name: hostel_id, value: 3 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "AC" }
+              - column: { name: hostel_id, value: 3 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Parking" }
+              - column: { name: hostel_id, value: 3 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Wifi" }
+              - column: { name: hostel_id, value: 4 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Refrigerator" }
+              - column: { name: hostel_id, value: 4 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Self Kitchen" }
+              - column: { name: hostel_id, value: 4 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Wifi" }
+              - column: { name: hostel_id, value: 5 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "TV" }
+              - column: { name: hostel_id, value: 5 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Parking" }
+              - column: { name: hostel_id, value: 5 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Wifi" }
+              - column: { name: hostel_id, value: 6 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Gym" }
+              - column: { name: hostel_id, value: 6 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Parking" }
+              - column: { name: hostel_id, value: 6 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Wifi" }
+              - column: { name: hostel_id, value: 7 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Laundry" }
+              - column: { name: hostel_id, value: 7 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Parking" }
+              - column: { name: hostel_id, value: 7 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Wifi" }
+              - column: { name: hostel_id, value: 8 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "AC" }
+              - column: { name: hostel_id, value: 8 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Self Kitchen" }
+              - column: { name: hostel_id, value: 8 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Wifi" }
+              - column: { name: hostel_id, value: 9 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Gym" }
+              - column: { name: hostel_id, value: 9 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "24x7 Security" }
+              - column: { name: hostel_id, value: 9 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Wifi" }
+              - column: { name: hostel_id, value: 10 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "TV" }
+              - column: { name: hostel_id, value: 10 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Parking" }
+              - column: { name: hostel_id, value: 10 }
+  - changeSet:
+      id: insert-extra-hostels
+      author: Ch-Hanuman
+      dbms: mysql
+      changes:
+        # Insert 10 additional Hostels (IDs 11-20)
+        - insert:
+            tableName: hostel
+            columns:
+              - column: {name: name, value: "Elite Living"}
+              - column: {name: address, value: "50 Park Residency"}
+              - column: {name: area, value: "Jubilee Hills"}
+              - column: {name: city, value: "Hyderabad"}
+              - column: {name: state, value: "Telangana"}
+              - column: {name: pincode, value: "500033"}
+              - column: {name: contact, value: "+91 9871000100"}
+              - column: {name: email, value: "eliteliving@gmail.com"}
+              - column: {name: website, value: "www.eliteliving.com"}
+              - column: {name: type, value: "CO_LIVE"}
+
+        - insert:
+            tableName: hostel
+            columns:
+              - column: {name: name, value: "Comfort Zone"}
+              - column: {name: address, value: "15 Green Valley"}
+              - column: {name: area, value: "Miyapur"}
+              - column: {name: city, value: "Hyderabad"}
+              - column: {name: state, value: "Telangana"}
+              - column: {name: pincode, value: "500049"}
+              - column: {name: contact, value: "+91 9871000200"}
+              - column: {name: email, value: "comfortzone@gmail.com"}
+              - column: {name: website, value: "www.comfortzone.com"}
+              - column: {name: type, value: "FEMALE"}
+
+        - insert:
+            tableName: hostel
+            columns:
+              - column: {name: name, value: "Apex Hostels"}
+              - column: {name: address, value: "70 High Street"}
+              - column: {name: area, value: "Begumpet"}
+              - column: {name: city, value: "Hyderabad"}
+              - column: {name: state, value: "Telangana"}
+              - column: {name: pincode, value: "500016"}
+              - column: {name: contact, value: "+91 9871000300"}
+              - column: {name: email, value: "apexhostels@gmail.com"}
+              - column: {name: website, value: "www.apexhostels.com"}
+              - column: {name: type, value: "MALE"}
+
+        - insert:
+            tableName: hostel
+            columns:
+              - column: {name: name, value: "City Central Inn"}
+              - column: {name: address, value: "25 Market Road"}
+              - column: {name: area, value: "Koti"}
+              - column: {name: city, value: "Hyderabad"}
+              - column: {name: state, value: "Telangana"}
+              - column: {name: pincode, value: "500095"}
+              - column: {name: contact, value: "+91 9871000400"}
+              - column: {name: email, value: "citycentral@gmail.com"}
+              - column: {name: website, value: "www.citycentralinn.com"}
+              - column: {name: type, value: "CO_LIVE"}
+
+        - insert:
+            tableName: hostel
+            columns:
+              - column: {name: name, value: "The Scholars Den"}
+              - column: {name: address, value: "9 Education Lane"}
+              - column: {name: area, value: "Amberpet"}
+              - column: {name: city, value: "Hyderabad"}
+              - column: {name: state, value: "Telangana"}
+              - column: {name: pincode, value: "500013"}
+              - column: {name: contact, value: "+91 9871000500"}
+              - column: {name: email, value: "scholarsden@gmail.com"}
+              - column: {name: website, value: "www.scholarsden.com"}
+              - column: {name: type, value: "MALE"}
+
+        - insert:
+            tableName: hostel
+            columns:
+              - column: {name: name, value: "Posh Spaces"}
+              - column: {name: address, value: "10 Luxury Boulevard"}
+              - column: {name: area, value: "Banjara Hills"}
+              - column: {name: city, value: "Hyderabad"}
+              - column: {name: state, value: "Telangana"}
+              - column: {name: pincode, value: "500034"}
+              - column: {name: contact, value: "+91 9871000600"}
+              - column: {name: email, value: "poshspaces@gmail.com"}
+              - column: {name: website, value: "www.poshspaces.com"}
+              - column: {name: type, value: "FEMALE"}
+
+        - insert:
+            tableName: hostel
+            columns:
+              - column: {name: name, value: "Global Dorms"}
+              - column: {name: address, value: "30 International Road"}
+              - column: {name: area, value: "Financial District"}
+              - column: {name: city, value: "Hyderabad"}
+              - column: {name: state, value: "Telangana"}
+              - column: {name: pincode, value: "500032"}
+              - column: {name: contact, value: "+91 9871000700"}
+              - column: {name: email, value: "globaldorms@gmail.com"}
+              - column: {name: website, value: "www.globaldorms.com"}
+              - column: {name: type, value: "CO_LIVE"}
+
+        - insert:
+            tableName: hostel
+            columns:
+              - column: {name: name, value: "Startup Living"}
+              - column: {name: address, value: "42 Innovation Hub"}
+              - column: {name: area, value: "Madhapur"}
+              - column: {name: city, value: "Hyderabad"}
+              - column: {name: state, value: "Telangana"}
+              - column: {name: pincode, value: "500081"}
+              - column: {name: contact, value: "+91 9871000800"}
+              - column: {name: email, value: "startupliving@gmail.com"}
+              - column: {name: website, value: "www.startupliving.com"}
+              - column: {name: type, value: "MALE"}
+
+        - insert:
+            tableName: hostel
+            columns:
+              - column: {name: name, value: "Peaceful Abode"}
+              - column: {name: address, value: "8 Serene Gardens"}
+              - column: {name: area, value: "Shaikpet"}
+              - column: {name: city, value: "Hyderabad"}
+              - column: {name: state, value: "Telangana"}
+              - column: {name: pincode, value: "500008"}
+              - column: {name: contact, value: "+91 9871000900"}
+              - column: {name: email, value: "peacefulabode@gmail.com"}
+              - column: {name: website, value: "www.peacefulabode.com"}
+              - column: {name: type, value: "FEMALE"}
+
+        - insert:
+            tableName: hostel
+            columns:
+              - column: {name: name, value: "Modern Homes"}
+              - column: {name: address, value: "18 Techie Lane"}
+              - column: {name: area, value: "Kondapur"}
+              - column: {name: city, value: "Hyderabad"}
+              - column: {name: state, value: "Telangana"}
+              - column: {name: pincode, value: "500084"}
+              - column: {name: contact, value: "+91 9871001000"}
+              - column: {name: email, value: "modernhomes@gmail.com"}
+              - column: {name: website, value: "www.modernhomes.com"}
+              - column: {name: type, value: "CO_LIVE"}
+
+  - changeSet:
+      id: insert-extra-hostel-images
+      author: Ch-Hanuman
+      dbms: mysql
+      changes:
+        # Insert Hostel Images for new hostels (assuming hostel_id from 11 to 20 autoincrement)
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 11}
+              - column: {name: image_url, value: "https://eliteliving.com/assets/images/1.jpg"}
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 11}
+              - column: {name: image_url, value: "https://eliteliving.com/assets/images/2.jpg"}
+
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 12}
+              - column: {name: image_url, value: "https://comfortzone.com/assets/images/1.jpg"}
+
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 13}
+              - column: {name: image_url, value: "https://apexhostels.com/assets/images/1.jpg"}
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 13}
+              - column: {name: image_url, value: "https://apexhostels.com/assets/images/2.jpg"}
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 13}
+              - column: {name: image_url, value: "https://apexhostels.com/assets/images/3.jpg"}
+
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 14}
+              - column: {name: image_url, value: "https://citycentralinn.com/assets/images/1.jpg"}
+
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 15}
+              - column: {name: image_url, value: "https://scholarsden.com/assets/images/1.jpg"}
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 15}
+              - column: {name: image_url, value: "https://scholarsden.com/assets/images/2.jpg"}
+
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 16}
+              - column: {name: image_url, value: "https://poshspaces.com/assets/images/1.jpg"}
+
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 17}
+              - column: {name: image_url, value: "https://globaldorms.com/assets/images/1.jpg"}
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 17}
+              - column: {name: image_url, value: "https://globaldorms.com/assets/images/2.jpg"}
+
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 18}
+              - column: {name: image_url, value: "https://startupliving.com/assets/images/1.jpg"}
+
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 19}
+              - column: {name: image_url, value: "https://peacefulabode.com/assets/images/1.jpg"}
+
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 20}
+              - column: {name: image_url, value: "https://modernhomes.com/assets/images/1.jpg"}
+        - insert:
+            tableName: hostel_images
+            columns:
+              - column: {name: hostel_id, value: 20}
+              - column: {name: image_url, value: "https://modernhomes.com/assets/images/2.jpg"}
+
+  - changeSet:
+      id: insert-extra-rooms
+      author: Ch-Hanuman
+      dbms: mysql
+      changes:
+        # Rooms for hostels 11-20 (2 rooms per hostel)
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "1101" }
+              - column: { name: type, value: "AC" }
+              - column: { name: capacity, value: 2 }
+              - column: { name: available, value: 2 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 14000 }
+              - column: { name: daily_price, value: 700 }
+              - column: { name: deposit, value: 8000 }
+              - column: { name: hostel_id, value: 11 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "1102" }
+              - column: { name: type, value: "NON_AC" }
+              - column: { name: capacity, value: 3 }
+              - column: { name: available, value: 3 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 10000 }
+              - column: { name: daily_price, value: 450 }
+              - column: { name: deposit, value: 6500 }
+              - column: { name: hostel_id, value: 11 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "1201" }
+              - column: { name: type, value: "AC" }
+              - column: { name: capacity, value: 2 }
+              - column: { name: available, value: 2 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 13500 }
+              - column: { name: daily_price, value: 680 }
+              - column: { name: deposit, value: 7800 }
+              - column: { name: hostel_id, value: 12 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "1202" }
+              - column: { name: type, value: "NON_AC" }
+              - column: { name: capacity, value: 3 }
+              - column: { name: available, value: 3 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 9800 }
+              - column: { name: daily_price, value: 430 }
+              - column: { name: deposit, value: 6300 }
+              - column: { name: hostel_id, value: 12 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "1301" }
+              - column: { name: type, value: "AC" }
+              - column: { name: capacity, value: 2 }
+              - column: { name: available, value: 2 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 12900 }
+              - column: { name: daily_price, value: 645 }
+              - column: { name: deposit, value: 7300 }
+              - column: { name: hostel_id, value: 13 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "1302" }
+              - column: { name: type, value: "NON_AC" }
+              - column: { name: capacity, value: 3 }
+              - column: { name: available, value: 3 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 9400 }
+              - column: { name: daily_price, value: 410 }
+              - column: { name: deposit, value: 6100 }
+              - column: { name: hostel_id, value: 13 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "1401" }
+              - column: { name: type, value: "AC" }
+              - column: { name: capacity, value: 2 }
+              - column: { name: available, value: 2 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 12700 }
+              - column: { name: daily_price, value: 635 }
+              - column: { name: deposit, value: 7100 }
+              - column: { name: hostel_id, value: 14 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "1402" }
+              - column: { name: type, value: "NON_AC" }
+              - column: { name: capacity, value: 3 }
+              - column: { name: available, value: 3 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 9100 }
+              - column: { name: daily_price, value: 390 }
+              - column: { name: deposit, value: 6050 }
+              - column: { name: hostel_id, value: 14 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "1501" }
+              - column: { name: type, value: "AC" }
+              - column: { name: capacity, value: 2 }
+              - column: { name: available, value: 2 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 13200 }
+              - column: { name: daily_price, value: 660 }
+              - column: { name: deposit, value: 7600 }
+              - column: { name: hostel_id, value: 15 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "1502" }
+              - column: { name: type, value: "NON_AC" }
+              - column: { name: capacity, value: 3 }
+              - column: { name: available, value: 3 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 9600 }
+              - column: { name: daily_price, value: 425 }
+              - column: { name: deposit, value: 6250 }
+              - column: { name: hostel_id, value: 15 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "1601" }
+              - column: { name: type, value: "AC" }
+              - column: { name: capacity, value: 2 }
+              - column: { name: available, value: 2 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 11900 }
+              - column: { name: daily_price, value: 595 }
+              - column: { name: deposit, value: 6900 }
+              - column: { name: hostel_id, value: 16 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "1602" }
+              - column: { name: type, value: "NON_AC" }
+              - column: { name: capacity, value: 3 }
+              - column: { name: available, value: 3 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 8900 }
+              - column: { name: daily_price, value: 395 }
+              - column: { name: deposit, value: 5950 }
+              - column: { name: hostel_id, value: 16 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "1701" }
+              - column: { name: type, value: "AC" }
+              - column: { name: capacity, value: 2 }
+              - column: { name: available, value: 2 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 13800 }
+              - column: { name: daily_price, value: 690 }
+              - column: { name: deposit, value: 7900 }
+              - column: { name: hostel_id, value: 17 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "1702" }
+              - column: { name: type, value: "NON_AC" }
+              - column: { name: capacity, value: 3 }
+              - column: { name: available, value: 3 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 9900 }
+              - column: { name: daily_price, value: 440 }
+              - column: { name: deposit, value: 6400 }
+              - column: { name: hostel_id, value: 17 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "1801" }
+              - column: { name: type, value: "AC" }
+              - column: { name: capacity, value: 2 }
+              - column: { name: available, value: 2 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 12100 }
+              - column: { name: daily_price, value: 605 }
+              - column: { name: deposit, value: 7050 }
+              - column: { name: hostel_id, value: 18 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "1802" }
+              - column: { name: type, value: "NON_AC" }
+              - column: { name: capacity, value: 3 }
+              - column: { name: available, value: 3 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 8700 }
+              - column: { name: daily_price, value: 370 }
+              - column: { name: deposit, value: 5800 }
+              - column: { name: hostel_id, value: 18 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "1901" }
+              - column: { name: type, value: "AC" }
+              - column: { name: capacity, value: 2 }
+              - column: { name: available, value: 2 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 12600 }
+              - column: { name: daily_price, value: 630 }
+              - column: { name: deposit, value: 7150 }
+              - column: { name: hostel_id, value: 19 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "1902" }
+              - column: { name: type, value: "NON_AC" }
+              - column: { name: capacity, value: 3 }
+              - column: { name: available, value: 3 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 9300 }
+              - column: { name: daily_price, value: 415 }
+              - column: { name: deposit, value: 6150 }
+              - column: { name: hostel_id, value: 19 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "2001" }
+              - column: { name: type, value: "AC" }
+              - column: { name: capacity, value: 2 }
+              - column: { name: available, value: 2 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 13100 }
+              - column: { name: daily_price, value: 655 }
+              - column: { name: deposit, value: 7400 }
+              - column: { name: hostel_id, value: 20 }
+
+        - insert:
+            tableName: room
+            columns:
+              - column: { name: room_no, value: "2002" }
+              - column: { name: type, value: "NON_AC" }
+              - column: { name: capacity, value: 3 }
+              - column: { name: available, value: 3 }
+              - column: { name: filled, value: 0 }
+              - column: { name: monthly_price, value: 9500 }
+              - column: { name: daily_price, value: 420 }
+              - column: { name: deposit, value: 6200 }
+              - column: { name: hostel_id, value: 20 }
+
+  - changeSet:
+      id: insert-extra-amenities
+      author: Ch-Hanuman
+      dbms: mysql
+      changes:
+        # Amenities for hostels 11-20 (3 amenities per hostel)
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Wifi" }
+              - column: { name: hostel_id, value: 11 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Elevator" }
+              - column: { name: hostel_id, value: 11 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Housekeeping" }
+              - column: { name: hostel_id, value: 11 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Wifi" }
+              - column: { name: hostel_id, value: 12 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Parking" }
+              - column: { name: hostel_id, value: 12 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Mess" }
+              - column: { name: hostel_id, value: 12 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Wifi" }
+              - column: { name: hostel_id, value: 13 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Gym" }
+              - column: { name: hostel_id, value: 13 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Laundry" }
+              - column: { name: hostel_id, value: 13 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Wifi" }
+              - column: { name: hostel_id, value: 14 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "AC" }
+              - column: { name: hostel_id, value: 14 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "TV" }
+              - column: { name: hostel_id, value: 14 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Wifi" }
+              - column: { name: hostel_id, value: 15 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Study Area" }
+              - column: { name: hostel_id, value: 15 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "24x7 Security" }
+              - column: { name: hostel_id, value: 15 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Wifi" }
+              - column: { name: hostel_id, value: 16 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Refrigerator" }
+              - column: { name: hostel_id, value: 16 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Self Kitchen" }
+              - column: { name: hostel_id, value: 16 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Wifi" }
+              - column: { name: hostel_id, value: 17 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Laundry" }
+              - column: { name: hostel_id, value: 17 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Gym" }
+              - column: { name: hostel_id, value: 17 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Wifi" }
+              - column: { name: hostel_id, value: 18 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Parking" }
+              - column: { name: hostel_id, value: 18 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Mess" }
+              - column: { name: hostel_id, value: 18 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Wifi" }
+              - column: { name: hostel_id, value: 19 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Housekeeping" }
+              - column: { name: hostel_id, value: 19 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "AC" }
+              - column: { name: hostel_id, value: 19 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Wifi" }
+              - column: { name: hostel_id, value: 20 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "TV" }
+              - column: { name: hostel_id, value: 20 }
+
+        - insert:
+            tableName: amenity
+            columns:
+              - column: { name: name, value: "Parking" }
+              - column: { name: hostel_id, value: 20 }
