@@ -1,0 +1,66 @@
+databaseChangeLog:
+  - changeSet:
+      id: "create-room-table"
+      author: "Ch-Hanuman"
+      dbms: "mysql"
+      changes:
+        - createTable:
+            tableName: "room"
+            columns:  
+              - column:
+                  name: "id"
+                  type: "int"
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: "room_no"
+                  type: "varchar(255)"
+                  constraints:
+                    nullable: false
+              - column:
+                  name: "type"
+                  type: "varchar(255)"
+                  constraints:
+                    nullable: false
+              - column:
+                  name: "capacity"
+                  type: "int"
+                  constraints:
+                    nullable: false
+              - column:
+                  name: "available"
+                  type: "int"
+                  constraints:
+                    nullable: false
+              - column:
+                  name: "filled"
+                  type: "int"
+                  constraints:
+                    nullable: false
+              - column:
+                  name: "monthly_price"
+                  type: "int"
+                  constraints:
+                    nullable: false
+              - column:
+                  name: "deposit"
+                  type: "int"
+                  constraints:
+                    nullable: false
+              - column:
+                  name: "daily_price"
+                  type: "int"
+                  constraints:
+                    nullable: false
+              - column:
+                  name: "hostel_id"
+                  type: "int"
+                  constraints:
+                    nullable: false
+        - addForeignKeyConstraint:
+            constraintName: "room_hostel_id_fk"
+            baseTableName: "room"
+            baseColumnNames: "hostel_id"
+            referencedTableName: "hostel"
+            referencedColumnNames: "id"

@@ -1,0 +1,19 @@
+package com.hostel.management_prototype.mapper;
+
+import com.hostel.management_prototype.dto.RoomDTO;
+import com.hostel.management_prototype.entity.Room;
+
+public class RoomMapper {
+    public static RoomDTO mapToRoomDTO(Room room) {
+        RoomDTO roomDTO = new RoomDTO();
+        roomDTO.setRoomNumber(room.getRoomNo());
+        roomDTO.setRoomType(room.getType());
+        roomDTO.setCapacity(room.getCapacity());
+        roomDTO.setAvailable(room.getAvailable());
+        roomDTO.setFilled(room.getFilled());
+        roomDTO.setMonthlyPrice(room.getMonthlyPrice());
+        roomDTO.setDailyPrice(room.getDailyPrice());
+        roomDTO.setDeposit(room.getDeposit());
+        return roomDTO;
+    }
+}
