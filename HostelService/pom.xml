@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.hostel</groupId>
-	<artifactId>management-prototype</artifactId>
+	<artifactId>hostel-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>management-prototype</name>
-	<description>Prototype for Hostel Management System</description>
+	<name>Hostel Service</name>
+	<description>Hostel Service for Hostel Management System</description>
 	<url/>
 	<licenses>
 		<license/>
