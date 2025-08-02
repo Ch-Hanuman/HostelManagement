@@ -1,10 +1,10 @@
-package com.hostel.management_prototype.controller;
+package com.hostel.management.controller;
 
 import com.fasterxml.jackson.annotation.JsonView;
-import com.hostel.management_prototype.dto.HostelDTO;
-import com.hostel.management_prototype.dto.ResponseDTO;
-import com.hostel.management_prototype.service.HostelService;
-import com.hostel.management_prototype.utilities.Views;
+import com.hostel.management.dto.HostelDTO;
+import com.hostel.management.dto.ResponseDTO;
+import com.hostel.management.service.HostelService;
+import com.hostel.management.utilities.Views;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

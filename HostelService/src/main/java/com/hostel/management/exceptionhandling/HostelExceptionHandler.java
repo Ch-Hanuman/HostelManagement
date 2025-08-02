@@ -1,6 +1,6 @@
-package com.hostel.management_prototype.exceptionhandling;
+package com.hostel.management.exceptionhandling;
 
-import com.hostel.management_prototype.dto.ErrorResponseDTO;
+import com.hostel.management.dto.ErrorResponseDTO;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

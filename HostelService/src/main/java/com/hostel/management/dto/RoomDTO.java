@@ -1,8 +1,8 @@
-package com.hostel.management_prototype.dto;
+package com.hostel.management.dto;
 
 import com.fasterxml.jackson.annotation.JsonView;
-import com.hostel.management_prototype.utilities.RoomType;
-import com.hostel.management_prototype.utilities.Views;
+import com.hostel.management.utilities.RoomType;
+import com.hostel.management.utilities.Views;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 

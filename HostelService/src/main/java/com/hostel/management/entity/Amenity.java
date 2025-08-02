@@ -1,4 +1,4 @@
-package com.hostel.management_prototype.entity;
+package com.hostel.management.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

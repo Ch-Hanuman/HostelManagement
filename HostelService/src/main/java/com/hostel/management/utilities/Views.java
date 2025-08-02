@@ -1,4 +1,4 @@
-package com.hostel.management_prototype.utilities;
+package com.hostel.management.utilities;
 
 public class Views {
     public static class BasicHostel{};

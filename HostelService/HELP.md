@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.hostel.management-prototype' is invalid and this project uses 'com.hostel.management_prototype' instead.
+* The original package name 'com.hostel.management-prototype' is invalid and this project uses 'com.hostel.management' instead.
 
 # Getting Started
 

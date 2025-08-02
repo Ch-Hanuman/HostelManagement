@@ -1,11 +1,11 @@
-package com.hostel.management_prototype.service.impl;
+package com.hostel.management.service.impl;
 
-import com.hostel.management_prototype.dao.HostelRepository;
-import com.hostel.management_prototype.dto.HostelDTO;
-import com.hostel.management_prototype.entity.Hostel;
-import com.hostel.management_prototype.exceptionhandling.ResourceNotFound;
-import com.hostel.management_prototype.mapper.HostelMapper;
-import com.hostel.management_prototype.service.HostelService;
+import com.hostel.management.dao.HostelRepository;
+import com.hostel.management.dto.HostelDTO;
+import com.hostel.management.entity.Hostel;
+import com.hostel.management.exceptionhandling.ResourceNotFound;
+import com.hostel.management.mapper.HostelMapper;
+import com.hostel.management.service.HostelService;
 import jakarta.persistence.criteria.Predicate;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

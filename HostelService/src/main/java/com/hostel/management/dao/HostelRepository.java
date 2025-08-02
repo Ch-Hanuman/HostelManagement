@@ -1,6 +1,6 @@
-package com.hostel.management_prototype.dao;
+package com.hostel.management.dao;
 
-import com.hostel.management_prototype.entity.Hostel;
+import com.hostel.management.entity.Hostel;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;

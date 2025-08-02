@@ -1,7 +1,7 @@
-package com.hostel.management_prototype.mapper;
+package com.hostel.management.mapper;
 
-import com.hostel.management_prototype.dto.RoomDTO;
-import com.hostel.management_prototype.entity.Room;
+import com.hostel.management.dto.RoomDTO;
+import com.hostel.management.entity.Room;
 
 public class RoomMapper {
     public static RoomDTO mapToRoomDTO(Room room) {

@@ -1,8 +1,8 @@
-package com.hostel.management_prototype.mapper;
+package com.hostel.management.mapper;
 
-import com.hostel.management_prototype.dto.HostelDTO;
-import com.hostel.management_prototype.entity.Amenity;
-import com.hostel.management_prototype.entity.Hostel;
+import com.hostel.management.dto.HostelDTO;
+import com.hostel.management.entity.Amenity;
+import com.hostel.management.entity.Hostel;
 import org.hibernate.Hibernate;
 
 public class HostelMapper {

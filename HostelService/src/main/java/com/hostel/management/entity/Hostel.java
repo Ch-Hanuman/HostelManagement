@@ -1,6 +1,6 @@
-package com.hostel.management_prototype.entity;
+package com.hostel.management.entity;
 
-import com.hostel.management_prototype.utilities.HostelType;
+import com.hostel.management.utilities.HostelType;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;

@@ -1,16 +1,15 @@
-package com.hostel.management_prototype.dto;
+package com.hostel.management.dto;
 
 import com.fasterxml.jackson.annotation.JsonView;
-import com.hostel.management_prototype.utilities.Views;
+import com.hostel.management.utilities.Views;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.http.HttpStatus;
 
 @Data
 @Slf4j
 @AllArgsConstructor
-public class ResponseDTO<T> {
+public class ErrorResponseDTO {
     @JsonView({Views.BasicHostel.class, Views.BasicRoom.class, Views.BasicAmenity.class})
     private boolean ok;
 
@@ -18,8 +17,5 @@ public class ResponseDTO<T> {
     private int statusCode;
 
     @JsonView({Views.BasicHostel.class, Views.BasicRoom.class, Views.BasicAmenity.class})
-    private String statusMessage;
-
-    @JsonView({Views.BasicHostel.class, Views.BasicRoom.class, Views.BasicAmenity.class})
-    private T data;
+    private String errorMessage;
 }

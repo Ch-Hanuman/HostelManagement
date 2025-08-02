@@ -1,7 +1,6 @@
-package com.hostel.management_prototype.service;
+package com.hostel.management.service;
 
-import com.hostel.management_prototype.dto.HostelDTO;
-import com.hostel.management_prototype.entity.Hostel;
+import com.hostel.management.dto.HostelDTO;
 
 import java.util.List;
 import java.util.Map;
