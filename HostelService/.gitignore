@@ -1,0 +1,50 @@
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+target/
+
+# Ignore Maven / Gradle build directories
+/.mvn/
+.gradle/
+
+# Ignore local Java build output
+*.class
+*.log
+
+# Ignore Spring Boot executable JARs
+*.jar
+*.war
+*.ear
+
+# Ignore dependency directories
+/.mvn/
+target/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Maven's settings file
+.settings/
+
+# Ignore Java build-related files
+*.class
+*.jar
+*.war
+
+# Ignore IntelliJ IDEA specific files
+.idea/
+*.iws
+*.iml
+
+# Ignore build tool cache directories
+*.gradle
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Ignore project-specific files
+*.swp
+*.swo
